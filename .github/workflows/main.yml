@@ -2,9 +2,9 @@ name: typsesense scraper
 
 on:
   push:
-    branches: [ "gh-pages" ]
-  pull_request:
-    branches: [ "gh-pages" ]
+    branches:
+      - gh-pages
+      - main
 
 jobs:
  build:
