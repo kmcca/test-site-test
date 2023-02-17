@@ -3,7 +3,7 @@ name: typsesense scraper
 on:
   push:
     branches:
-      - gh-pages
+      - github-pages
       - main
 
 jobs:
